@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project Version="3" Minor="2" Path="E:/FPGA/code/FPGA_Code">
+<Project Version="3" Minor="2" Path="E:/FPGA/code/FPGA_Code/DDR">
     <Project_Created_Time></Project_Created_Time>
     <TD_Version>6.2.168116</TD_Version>
-    <Name>FPGA_prj</Name>
+    <Name>FPGA_DDR</Name>
     <HardWare>
         <Family>PH1</Family>
         <Device>PH1A180SFG676</Device>
         <Speed>-2</Speed>
     </HardWare>
     <Source_Files>
+        <Verilog>
+            <File Path="uisrc/01_rtl/system_ddr.v">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true"/>
+                    <Attr Name="UsedInP&R" Val="true"/>
+                    <Attr Name="BelongTo" Val="design_1"/>
+                    <Attr Name="CompileOrder" Val="1"/>
+                </FileInfo>
+            </File>
+        </Verilog>
     </Source_Files>
     <FileSets>
         <FileSet Name="design_1" Type="DesignFiles">
@@ -17,9 +27,9 @@
         </FileSet>
     </FileSets>
     <TOP_MODULE>
-        <LABEL></LABEL>
-        <MODULE></MODULE>
-        <CREATEINDEX></CREATEINDEX>
+        <LABEL>system_ddr</LABEL>
+        <MODULE>system_ddr</MODULE>
+        <CREATEINDEX>user</CREATEINDEX>
     </TOP_MODULE>
     <Property>
     </Property>

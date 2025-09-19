@@ -4,7 +4,7 @@
    Executable = E:/FPGA/Software/TD_6.2.1/bin/td.exe
    Built at =   16:32:07 Jun 12 2025
    Run by =     18058
-   Run Date =   Fri Sep 19 10:57:58 2025
+   Run Date =   Fri Sep 19 11:15:41 2025
 
    Run on =     ROG
 ============================================================
@@ -15,9 +15,9 @@ ARC-1001 : -----------------------------------------------------------
 ARC-1001 :   non_jtag_persist(none)  |      36 IOs      |    gpio    
 ARC-1001 :            jtag           |  P7/L8/N8/R6/R7  |  dedicate  
 ARC-1001 : -----------------------------------------------------------
-RUN-1003 : finish command "import_device ph1_180.db -package PH1A180SFG676 -speed 2" in  5.374560s wall, 3.437500s user + 0.359375s system = 3.796875s CPU (70.6%)
+RUN-1003 : finish command "import_device ph1_180.db -package PH1A180SFG676 -speed 2" in  5.381236s wall, 3.500000s user + 0.328125s system = 3.828125s CPU (71.1%)
 
-RUN-1004 : used memory is 1526 MB, reserved memory is 1508 MB, peak memory is 1560 MB
+RUN-1004 : used memory is 1525 MB, reserved memory is 1507 MB, peak memory is 1559 MB
 RUN-1002 : start command "commit_param -step design"
 RUN-1001 : Print Global Property
 RUN-1001 : -------------------------------------------------------------
