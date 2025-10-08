@@ -6,6 +6,12 @@
 使用vitis 2024.2
 Ubuntu22.04
 
+#### 开发流程
+
+vitis_hls生成rtl以及IP核
+vivado 使用IP和进行打包生成xsa文件
+jupyter notebook将xsa文件中的hwh和bit文件上传到板子中去测试
+
 #### 使用说明
 
 ##### vitis/vivado
