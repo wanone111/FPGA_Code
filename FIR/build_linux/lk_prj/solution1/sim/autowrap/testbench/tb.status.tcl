@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/aa/FPGA_space/FIR/build_linux/lk_prj/solution1/./sim/autowrap/testbench/fir.cpp_pre.cpp.tb.cpp

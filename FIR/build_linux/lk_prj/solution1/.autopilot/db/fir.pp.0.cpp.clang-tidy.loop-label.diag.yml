@@ -1,0 +1,31 @@
+---
+MainSourceFile:  /home/aa/FPGA_space/FIR/build_linux/lk_prj/solution1/.autopilot/db/fir.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_15_1:  '
+    FileOffset:      15
+    FilePath:        /home/aa/FPGA_space/FIR/src/fir.cpp
+    Replacements:    
+      - FilePath:        /home/aa/FPGA_space/FIR/build_linux/lk_prj/solution1/.autopilot/db/fir.pp.0.cpp
+        Offset:          9944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_15_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        /home/aa/FPGA_space/FIR/src/fir.cpp
+    Replacements:    
+      - FilePath:        /home/aa/FPGA_space/FIR/build_linux/lk_prj/solution1/.autopilot/db/fir.pp.0.cpp
+        Offset:          10718
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_46_2:  '
+    FileOffset:      46
+    FilePath:        /home/aa/FPGA_space/FIR/src/fir.cpp
+    Replacements:    
+      - FilePath:        /home/aa/FPGA_space/FIR/build_linux/lk_prj/solution1/.autopilot/db/fir.pp.0.cpp
+        Offset:          10797
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_46_2: '
+...
