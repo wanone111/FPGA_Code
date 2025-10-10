@@ -74,6 +74,3 @@ lk_prj/
 | `lk_prj/solution1/impl/report/hls_LK_cosim.rpt` | 协同仿真报告：RTL与C代码对比验证 | ⭐⭐⭐⭐ |
 | `result/output_optical_flow.jpg` | 光流可视化结果图像 | ⭐⭐⭐ |
 | `vitis_hls.log` | 完整的HLS运行日志 | ⭐⭐⭐ |
-
-
-
