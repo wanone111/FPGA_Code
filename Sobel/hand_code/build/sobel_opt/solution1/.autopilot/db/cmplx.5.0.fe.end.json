@@ -1,0 +1,56 @@
+{
+    "0": {
+        "name": "sobel",
+        "file": "sobel_opt.cpp",
+        "fileloc": "66",
+        "instructions": "101",
+        "total_instructions": "294",
+        "calls": "1 2",
+        "basicblocks": "16",
+        "loads": {
+            "L": "11"
+        },
+        "stores": {
+            "L": "10"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "1": {
+        "name": "sobel_Pipeline_VITIS_LOOP_88_1",
+        "file": "..\/src\/sobel_opt.cpp",
+        "fileloc": "74",
+        "instructions": "32",
+        "total_instructions": "32",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "2"
+        },
+        "stores": {
+            "L": "5"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "sobel_Pipeline_VITIS_LOOP_118_3",
+        "file": "..\/src\/sobel_opt.cpp",
+        "fileloc": "74",
+        "instructions": "161",
+        "total_instructions": "161",
+        "calls": "",
+        "basicblocks": "15",
+        "loads": {
+            "L": "12"
+        },
+        "stores": {
+            "L": "25"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

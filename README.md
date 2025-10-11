@@ -40,7 +40,7 @@ vitis_hls -f run_hls.tcl
 大概是这样
 
 ```
-lk_prj/
+/build/prj
 ├── hls.app                    # HLS工程配置文件
 └── solution1/                 # 解决方案目录
     ├── csim/                  # C仿真结果
@@ -48,10 +48,10 @@ lk_prj/
     │   │   ├── csim.exe      # C仿真可执行程序
     │   │   └── apcc_db/      # 编译数据库
     │   └── report/           # C仿真报告
-    │       └── hls_LK_csim.log
+    │       └── csim.log
     ├── syn/                   # 综合结果
     │   ├── report/           # 综合报告
-    │   │   ├── hls_LK_csynth.rpt    # 【重要】综合报告（资源使用、时序）
+    │   │   ├── csynth.rpt    # 【重要】综合报告（资源使用、时序）
     │   │   ├── hls_LK_csynth.xml    # XML格式综合报告
     │   │   └── hls_LK.aps           # 分析数据
     │   ├── verilog/          # 【重要】生成的RTL代码

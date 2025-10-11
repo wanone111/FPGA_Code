@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/aa/FPGA_space/Sobel/hand_code/build/sobel_opt/solution1/./sim/autowrap/testbench/sobel_opt.cpp_pre.cpp.tb.cpp

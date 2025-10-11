@@ -1,0 +1,66 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/aa/FPGA_space/Sobel/hand_code/build/run_hls.tcl:40:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=sobel" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:68:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=src" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:69:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=dst" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:70:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=rows bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:71:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=cols bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=CTRL" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=LineBuffer complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:82:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=WindowBuffer complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:90:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=1280" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:91:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=720" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:120:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=1 max=1280" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:121:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="sobel" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:54:0" msg_body="Inlining function 'Gradient_X(unsigned char (*) [3])' into 'sobel3x3_kernel(unsigned char (*) [3])'">
+        <args Callee="Gradient_X(unsigned char (*) [3])" Callee-DebugLoc="File ../src/sobel_opt.cpp Line 10 Column 0" Caller="sobel3x3_kernel(unsigned char (*) [3])" Caller-DebugLoc="File ../src/sobel_opt.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:54:0" msg_body="Inlining function 'Gradient_Y(unsigned char (*) [3])' into 'sobel3x3_kernel(unsigned char (*) [3])'">
+        <args Callee="Gradient_Y(unsigned char (*) [3])" Callee-DebugLoc="File ../src/sobel_opt.cpp Line 32 Column 0" Caller="sobel3x3_kernel(unsigned char (*) [3])" Caller-DebugLoc="File ../src/sobel_opt.cpp Line 54 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:67:0" msg_body="Inlining function 'sobel3x3_kernel(unsigned char (*) [3])' into 'sobel(hls::stream&lt;hls::axis&lt;ap_uint&lt;8&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;8&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, int, int)'">
+        <args Callee="sobel3x3_kernel(unsigned char (*) [3])" Callee-DebugLoc="File ../src/sobel_opt.cpp Line 54 Column 0" Caller="sobel(hls::stream&lt;hls::axis&lt;ap_uint&lt;8&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_uint&lt;8&gt;, 0ul, 0ul, 0ul, (unsigned char)56, false&gt;, 0&gt;&amp;, int, int)" Caller-DebugLoc="File ../src/sobel_opt.cpp Line 67 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:78:8" msg_body="Applying array_partition to 'LineBuffer': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="LineBuffer"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:81:8" msg_body="Applying array_partition to 'WindowBuffer': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="WindowBuffer"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:114:26" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:115:3" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="../src/sobel_opt.cpp:116:3" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-437" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:98:19" msg_body="Automatically disabling loop flattening for loop 'VITIS_LOOP_98_2'.">
+        <args LoopName="VITIS_LOOP_98_2"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../src/sobel_opt.cpp:98:19" msg_body="loop_flatten 0 1 sobel ../src/sobel_opt.cpp:98:19VITIS_LOOP_98_2 ../src/sobel_opt.cpp:98:19">
+        <args LoopLoc="../src/sobel_opt.cpp:98:19" LoopLoc-DebugLoc="File ../src/sobel_opt.cpp Line 98 Column 19" LoopName="VITIS_LOOP_98_2" PragmaFunction="sobel" PragmaIsAuto="1" PragmaOptions="0" PragmaSrcLoc="../src/sobel_opt.cpp:98:19" PragmaSrcLoc-DebugLoc="File ../src/sobel_opt.cpp Line 98 Column 19" PragmaType="loop_flatten"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+
