@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/aa/FPGA_space/test/build/key_led/solution1/./sim/autowrap/testbench/key_led.cpp_pre.cpp.tb.cpp

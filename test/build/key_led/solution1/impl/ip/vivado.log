@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Oct 14 22:05:44 2025
+# Process ID         : 80341
+# Current directory  : /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/vivado.log
+# Journal file       : /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/vivado.jou
+# Running On         : rog
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-14900HX
+# CPU Frequency      : 2419.198 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16563 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20858 MB
+# Available Virtual  : 17677 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/aa/FPGA_space/test/build/key_led/solution1/solution1_data.json outdir=/home/aa/FPGA_space/test/build/key_led/solution1/impl/ip srcdir=/home/aa/FPGA_space/test/build/key_led/solution1 sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/misc
+INFO: Copied 2 verilog file(s) to /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/hdl/verilog
+INFO: Copied 2 vhdl file(s) to /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/hdl/vhdl
+INFO: Import ports from HDL: /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/hdl/vhdl/key_led_top.vhd (key_led_top)
+INFO: Add data interface key0
+INFO: Add data interface key1
+INFO: Add data interface led0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2024.2/data/ip'.
+INFO: Add data interface led1
+INFO: Add reset interface ap_rst
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/component.xml
+INFO: Created IP archive /home/aa/FPGA_space/test/build/key_led/solution1/impl/ip/xilinx_com_hls_key_led_top_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 14 22:05:51 2025...

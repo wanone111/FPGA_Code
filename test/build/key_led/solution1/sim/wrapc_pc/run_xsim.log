@@ -1,0 +1,76 @@
+-------------------------------
+Test started.
+key0=0, key1=0 -> led0=0, led1=0
+key0=1, key1=0 -> led0=1, led1=0
+key0=0, key1=1 -> led0=0, led1=1
+key0=1, key1=1 -> led0=1, led1=1
+Test passed.
+-------------------------------
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_key_led_top_top glbl -Oenable_linking_all_libraries -prj key_led_top.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_24 -L floating_point_v7_1_19 --lib ieee_proposed=./ieee_proposed -s key_led_top 
+Multi-threading is on. Using 30 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by AMD, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/aa/FPGA_space/test/build/key_led/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/aa/FPGA_space/test/build/key_led/solution1/sim/verilog/key_led_top_sparsemux_7_2_2_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_led_top_sparsemux_7_2_2_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/aa/FPGA_space/test/build/key_led/solution1/sim/verilog/key_led_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module key_led_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/aa/FPGA_space/test/build/key_led/solution1/sim/verilog/key_led_top.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_key_led_top_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/aa/FPGA_space/test/build/key_led/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.key_led_top_sparsemux_7_2_2_1_1(...
+Compiling module xil_defaultlib.key_led_top
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.dataflow_monitor
+Compiling module xil_defaultlib.apatb_key_led_top_top
+Compiling module work.glbl
+Built simulation snapshot key_led_top
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Oct 14 22:05:39 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/key_led_top/xsim_script.tcl
+# xsim {key_led_top} -autoloadwcfg -tclbatch {key_led_top.tcl}
+Time resolution is 1 ps
+source key_led_top.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 4 [n/a] @ "125000"
+// RTL Simulation : 1 / 4 [n/a] @ "145000"
+// RTL Simulation : 2 / 4 [n/a] @ "155000"
+// RTL Simulation : 3 / 4 [n/a] @ "165000"
+// RTL Simulation : 4 / 4 [n/a] @ "175000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 225 ns : File "/home/aa/FPGA_space/test/build/key_led/solution1/sim/verilog/key_led_top.autotb.v" Line 358
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 14 22:05:42 2025...
+-------------------------------
+Test started.
+key0=0, key1=0 -> led0=0, led1=0
+key0=1, key1=0 -> led0=1, led1=0
+key0=0, key1=1 -> led0=0, led1=1
+key0=1, key1=1 -> led0=1, led1=1
+Test passed.
+-------------------------------
