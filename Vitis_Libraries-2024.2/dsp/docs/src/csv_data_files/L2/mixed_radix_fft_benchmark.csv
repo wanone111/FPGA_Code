@@ -1,0 +1,43 @@
+Library Element,AIE_VARIANT,TT_DATA,TT_TWIDDLE,TP_POINT_SIZE,TP_FFT_NIFFT,TP_WINDOW_VSIZE,TP_CASC_LEN,TP_API,TP_DYN_PT_SIZE,Dynamic Power (W),Latency (ns),Throughput (MSa/s),NUM_BANKS,NUM_AIE,DATA_MEMORY,PROGRAM_MEMORY
+mixed_radix_fft,AIE,cfloat,cfloat,96,0,96,1,0,0,0.975,1782,162,9,1,8084,4266
+mixed_radix_fft,AIE,cint16,cint16,1024,1,1024,1,0,0,1.117,3322,752,9,1,38806,5334
+mixed_radix_fft,AIE,cint16,cint16,1200,0,1200,1,1,0,1.102,5664,361,9,1,35550,6332
+mixed_radix_fft,AIE,cint16,cint16,1200,0,1200,2,0,0,1.211,4830,698,21,2,90283,2950 3900
+mixed_radix_fft,AIE,cint16,cint16,1200,0,1200,3,0,0,1.401,4163,880,32,3,135424,3244 2102 2894
+mixed_radix_fft,AIE,cint16,cint16,1200,0,1200,4,0,0,1.451,4173,883,42,4,180565,2102 3244 2010 2174
+mixed_radix_fft,AIE,cint16,cint16,1200,0,1200,5,0,0,1.635,3422,1250,53,5,225706,2010 2316 2102 2174 2276
+mixed_radix_fft,AIE,cint16,cint16,1200,0,1200,1,0,0,1.111,5925,527,11,1,45142,5648
+mixed_radix_fft,AIE,cint16,cint16,128,0,128,1,0,0,0.977,822,441,9,1,6551,4118
+mixed_radix_fft,AIE,cint16,cint16,1296,0,1296,1,0,0,1.105,7878,439,11,1,48599,5536
+mixed_radix_fft,AIE,cint16,cint16,144,0,144,1,0,0,0.982,1182,348,9,1,7127,4144
+mixed_radix_fft,AIE,cint16,cint16,144,0,144,1,1,0,1.006,1038,256,7,1,5983,4844
+mixed_radix_fft,AIE,cint16,cint16,16,0,192,2,1,0,1.02,2216,301,12,2,9139,2048 1974
+mixed_radix_fft,AIE,cint16,cint16,2000,0,2000,1,0,0,1.117,11174,472,12,1,73942,5894
+mixed_radix_fft,AIE,cint16,cint16,2048,0,2048,1,0,0,1.17,6888,725,12,1,75671,5798
+mixed_radix_fft,AIE,cint16,cint16,240,0,2400,1,0,0,1.134,11848,525,13,1,45142,4848
+mixed_radix_fft,AIE,cint16,cint16,240,0,240,1,0,0,1.012,1294,503,9,1,10582,4598
+mixed_radix_fft,AIE,cint16,cint16,240,0,480,1,0,0,1.04,2576,495,9,1,14422,4848
+mixed_radix_fft,AIE,cint16,cint16,240,0,480,3,1,0,1.217,1974,564,16,3,39432,2430 2230 3516
+mixed_radix_fft,AIE,cint16,cint16,240,0,720,1,0,0,1.055,3735,508,9,1,18262,4848
+mixed_radix_fft,AIE,cint16,cint16,240,0,960,1,0,0,1.065,4891,513,9,1,22102,4848
+mixed_radix_fft,AIE,cint16,cint16,24,0,24,1,0,0,0.945,926,129,9,1,2807,2518
+mixed_radix_fft,AIE,cint16,cint16,256,1,256,1,0,0,1.011,1112,610,9,1,11158,4534
+mixed_radix_fft,AIE,cint16,cint16,32,0,32,1,0,0,0.946,687,187,9,1,3095,2430
+mixed_radix_fft,AIE,cint16,cint16,400,0,400,1,0,0,1.036,2081,512,9,1,16342,4838
+mixed_radix_fft,AIE,cint16,cint16,40,0,40,1,0,0,0.951,917,172,9,1,3382,2926
+mixed_radix_fft,AIE,cint16,cint16,432,1,432,1,0,0,1.087,2744,427,9,1,17495,4832
+mixed_radix_fft,AIE,cint16,cint16,48,0,192,3,1,0,1.136,1240,518,18,3,16393,2364 1952 2122
+mixed_radix_fft,AIE,cint16,cint16,48,1,48,1,0,0,0.951,763,243,9,1,3671,2866
+mixed_radix_fft,AIE,cint16,cint16,512,0,512,1,0,0,1.136,1922,675,9,1,20375,4966
+mixed_radix_fft,AIE,cint16,cint16,64,1,64,1,0,0,0.954,660,293,9,1,4246,3196
+mixed_radix_fft,AIE,cint16,cint16,720,0,720,1,0,0,1.093,3261,571,9,1,27862,5334
+mixed_radix_fft,AIE,cint16,cint16,80,0,80,1,0,0,0.961,725,329,9,1,4822,3638
+mixed_radix_fft,AIE,cint16,cint16,96,1,96,1,0,0,0.969,814,344,9,1,5399,3900
+mixed_radix_fft,AIE-ML,cint16,cint16,160,0,160,1,0,0,0.496,1029,444,8,1,7711,3584
+mixed_radix_fft,AIE-ML,cint16,cint16,2592,1,2592,1,0,0,0.612,18858,372,18,1,95263,4992
+mixed_radix_fft,AIE-ML,cint16,cint16,288,1,288,1,0,0,0.511,1837,435,8,1,12319,3824
+mixed_radix_fft,AIE-ML,cint16,cint16,48,0,48,1,0,0,0.469,947,202,8,1,3681,2608
+mixed_radix_fft,AIE-ML,cint16,cint16,800,0,800,1,0,0,0.562,4494,470,8,1,30751,4432
+mixed_radix_fft,AIE-ML,cint16,cint16,80,0,80,1,0,0,0.478,911,267,8,1,4833,3360
+mixed_radix_fft,AIE-ML,cint16,cint16,864,0,864,1,0,0,0.546,5664,411,7,1,33055,4496
+mixed_radix_fft,AIE-ML,cint16,cint16,96,0,96,1,0,0,0.48,810,356,8,1,5407,3248
