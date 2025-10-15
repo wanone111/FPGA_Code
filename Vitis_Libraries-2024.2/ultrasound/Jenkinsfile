@@ -1,0 +1,3 @@
+@Library('pipeline-library')_
+VitisLibPipeline ( libname:'xf_ultrasound',
+                   upstream_dependencies:'')
