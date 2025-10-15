@@ -1,6 +1,0 @@
-   Build using "/opt/Xilinx/Vitis/2024.2/vcxx/libexec//clang++"
-   Compiling apatb_key_led_top.cpp
-   Compiling key_led.cpp_pre.cpp.tb.cpp
-   Compiling test.cpp_pre.cpp.tb.cpp
-   Compiling apatb_key_led_top_ir.ll
-   Generating cosim.tv.exe

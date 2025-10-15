@@ -1,7 +1,0 @@
-   Build using "/opt/Xilinx/Vitis/2024.2/vcxx/libexec//clang++"
-   Compiling apatb_sobel.cpp
-   Compiling apatb_sobel_util.cpp
-   Compiling sobel_opt.cpp_pre.cpp.tb.cpp
-   Compiling sobel_tb.cpp_pre.cpp.tb.cpp
-   Compiling apatb_sobel_ir.ll
-   Generating cosim.tv.exe

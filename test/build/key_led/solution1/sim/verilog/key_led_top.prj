@@ -1,6 +1,0 @@
-sv work "glbl.v"
-sv xil_defaultlib "key_led_top_sparsemux_7_2_2_1_1.v"
-sv xil_defaultlib "key_led_top.v"
-sv xil_defaultlib "key_led_top.autotb.v"
-sv xil_defaultlib "dataflow_monitor.sv"
-

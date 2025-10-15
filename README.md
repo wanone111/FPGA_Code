@@ -1,6 +1,7 @@
 # 2025-FPGA-AMD-PYNQ
 
 #### 介绍
+
 嵌赛FPGA-AMD命题式赛道
 
 使用vitis 2024.2
@@ -17,6 +18,7 @@ jupyter notebook将xsa文件中的hwh和bit文件上传到板子中去测试
 ##### vitis/vivado
 
 通过命令行启动vitis
+
 ```bash
 source /opt/Xilinx/Vitis/2024.2/settings64.sh
 
@@ -31,15 +33,16 @@ vitis/vivado
 cd ./FIR/build_linux
 ```
 
-```
+``` bash
 # 执行HLS自动化脚本
 vitis_hls -f run_hls.tcl
 ```
 
 #### HLS工程结果目录结构
+
 大概是这样
 
-```
+```bash
 /build/prj
 ├── hls.app                    # HLS工程配置文件
 └── solution1/                 # 解决方案目录

@@ -1,2 +1,0 @@
-clang-14: warning: -Wl,-rpath,/home/aa/miniconda3/envs/opencv_env/lib: 'linker' input unused [-Wunused-command-line-argument]
-clang-14: warning: argument unused during compilation: '-L/home/aa/miniconda3/envs/opencv_env/lib' [-Wunused-command-line-argument]

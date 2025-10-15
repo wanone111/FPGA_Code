@@ -1,7 +1,0 @@
-Running: xsim.dir/key_led_top/xsimk -simmode gui -wdb key_led_top.wdb -simrunnum 0 -socket 33681
-Design successfully loaded
-Design Loading Memory Usage: 177912 KB (Peak: 177912 KB)
-Design Loading CPU Usage: 540 ms
-Simulation completed
-Simulation Memory Usage: 260616 KB (Peak: 317180 KB)
-Simulation CPU Usage: 540 ms
