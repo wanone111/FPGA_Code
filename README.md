@@ -26,14 +26,14 @@ vitis/vivado
 首先切换到build目录下
 
 ```bash
-cd ./FIR/build_linux
+cd  ....
 ```
 
 ``` bash
 # 执行HLS自动化脚本
 vitis_hls -f run_hls.tcl
-```
-
-#### HLS工程结果目录结构
 
 #### 关键输出文件说明
+
+
+```
