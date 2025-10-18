@@ -1,15 +1,6 @@
----
-title: vitis_hls
-date: 2025-10-16 20:22:20
-tags:
-    - FPGA
-    - vitis
-categories: Vitis_hls
----
+# vitis_hls指令
 
-## vitis_hls指令
-
-### 循环展开
+## 循环展开
 
 ```c++
 #pragma HLS unroll factor=2   // 展开因子为2,意思是把这个循环展开为两份，同时并行，需要对应的bram也进行了分组
@@ -34,7 +25,7 @@ categories: Vitis_hls
 #pragma HLS bind_storage variable = flow_level_1 type = FIFO impl = URAM //该指令不能指定深度，深度在命名数组时直接指定即可
 ```
 
-#### 经验法则
+### 经验法则
 
 当对多维矩阵进行分块时，应该：
 
@@ -70,7 +61,7 @@ int A[10][10];
 
 - 有递归时使用`#pragma HLS pipeline II=S`要注意递归的加法器或者乘法器的运行时间周期，当对应S时一般才是最佳
 
-#### 流水线命令
+### 流水线命令
 
 ```c++
 //使用dataflow的流水线总时间间隔取决于时间最长的模块，建议主函数必须使用
@@ -88,7 +79,7 @@ int A[10][10];
   - 当按**顺序生成和使用数据时，FIFO通常是最佳选择**，而当没有这种**常规数据访问模式时，用乒乓操作来缓存数据是更好的选择。**
   - `dataflow` 指令可以提高并行性，但最终性能仍然受限于最慢的部分，**可以对比较快的部分进行资源优化**，
 
-### 先决条件指令集
+## 先决条件指令集
 
 ```c++
 #pragma HLS DEPENDENCE variable=hist inter RAW distance=2
@@ -133,11 +124,11 @@ int A[10][10];
 #pragma HLS LOOP_FLATTEN OFF
 ```
 
-### URAM
+## URAM
 
 当你选择使用uram，那么对应中间的数据流的就得全部使用Uram，要不然时间不一样会寄
 
-## 优化
+# 优化
 
 FPGA优化方向
 
